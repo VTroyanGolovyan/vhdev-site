@@ -46,6 +46,13 @@ export function Header() {
             >
               Преподавание
             </Link>
+            <Link
+              onClick={(e) => { setIsShown(false) }}
+              className={s.href}
+              to='/teaching'
+            >
+              Вход
+            </Link>
           </nav>
         </header>
       </>
