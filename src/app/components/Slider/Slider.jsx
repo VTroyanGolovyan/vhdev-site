@@ -11,7 +11,7 @@ export function Slider({items}) {
             {items.map((item, idx) => <Slide key={idx} slideId={idx} slideData={item}/>)}
           </div>
           <div class={s.pages}>
-            {items.map((item, idx) => <label htmlFor={idx}>{idx}</label>)}
+            {items.map((item, idx) => <label htmlFor={idx}>{idx + 1}</label>)}
           </div>
         </div>
       </>

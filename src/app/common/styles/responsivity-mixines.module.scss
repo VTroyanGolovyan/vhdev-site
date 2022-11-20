@@ -1,16 +1,18 @@
+@import "./vars.module.scss";
+
 @mixin responsive-size-container {
   box-sizing: border-box;
   padding: 20px 20%;
   width: 100%;
   @media screen {
-    @media (max-width: 480px) {
+    @media (max-width: $mobile-size) {
       padding: 20px 20px;
     }
   }
 }
 @mixin column-mobile {
   @media screen {
-    @media (max-width: 480px) {
+    @media (max-width: $mobile-size) {
       flex-direction: column;
     }
   }
@@ -18,7 +20,7 @@
 
 @mixin wide-mobile {
   @media screen {
-    @media (max-width: 480px) {
+    @media (max-width: $mobile-size) {
       width: 100%;
     }
   }

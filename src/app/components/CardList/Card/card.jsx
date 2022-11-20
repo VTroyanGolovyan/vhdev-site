@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './card.module.scss'
+import PropTypes from 'prop-types';
 
 export default function Card({cardData}) {
 
@@ -17,3 +18,11 @@ export default function Card({cardData}) {
     </>
   )
 }
+
+Card.propTypes = {
+  cardData: PropTypes.shape({
+    img: PropTypes.string,
+    name: PropTypes.string,
+    tags: PropTypes.array
+  })
+};
