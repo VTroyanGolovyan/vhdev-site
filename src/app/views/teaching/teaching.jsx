@@ -36,7 +36,7 @@ export function Teaching() {
       <AboutMe url={API_LOAD_ABOUT}/>
       <div class={s.feeds}>
         <div className={s.iframeWrapper}>
-          <iframe title="Profi"  height="150px" width="300px" src={process.env.PUBLIC_URL + '/widget.html'}/>
+          <iframe scrolling="no" title="Profi"  height="150px" width="300px" src={process.env.PUBLIC_URL + '/widget.html'}/>
         </div>
         <div className={s.sliderWrapper}>
           <Slider items={items}/>

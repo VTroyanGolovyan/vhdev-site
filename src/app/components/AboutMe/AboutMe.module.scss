@@ -52,6 +52,7 @@
       }
     }
     .descriptionText {
+      text-align: justify;
       @media screen and (max-width: $mobile-size) {
         width: 100%;
         text-align: center;

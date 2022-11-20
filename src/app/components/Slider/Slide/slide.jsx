@@ -10,9 +10,9 @@ export function Slide({slideId, slideData}) {
         <div className={s.slideTags}>
           {slideData.tags.map((item, idx) => <div key={idx}>{item}</div>)}
         </div>
-        <div className={s.slideText}>
+        <cite className={s.slideText}>
           {slideData.text}
-        </div>
+        </cite>
       </div>
     </>
   )
