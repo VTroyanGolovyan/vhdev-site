@@ -1,0 +1,13 @@
+@import "../../common/styles/vars.module.scss";
+@import "../../common/styles/responsivity-mixines.module.scss";
+
+.cardList {
+  @include column-mobile;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}

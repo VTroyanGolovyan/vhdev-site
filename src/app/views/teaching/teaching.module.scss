@@ -1,0 +1,29 @@
+@import "../../common/styles/responsivity-mixines.module.scss";
+@import "../../common/styles/vars.module.scss";
+
+
+.iframeWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  iframe {
+    border: none;
+    background: none;
+  }
+}
+
+.sliderWrapper {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 324px);
+}
+
+.feeds {
+  @include responsive-size-container;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

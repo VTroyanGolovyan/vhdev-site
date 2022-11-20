@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Nibol",
+    "img": "http://vhdev.ru/content/projects/d7e06920f771ed9f1a13c25c4abd7dees3.png",
+    "tags": ["js", "php", "scss"]
+  },
+  {
+    "name": "Coddy.ca",
+    "img": "http://vhdev.ru/content/projects/ba39a7c1c6ef00ca47925bc581a0dd30s1.png",
+    "tags": ["js", "php", "scss"]
+  },
+  {
+    "name": "MagicPuzzle",
+    "img": "http://vhdev.ru/content/projects/0f2e6b264a0e2548a301946608b0ee14s1.png",
+    "tags": ["js", "php", "scss"]
+  },
+  {
+    "name": "Nibol",
+    "img": "http://vhdev.ru/content/projects/d7e06920f771ed9f1a13c25c4abd7dees3.png",
+    "tags": ["js", "php", "scss"]
+  },
+  {
+    "name": "Coddy.ca",
+    "img": "http://vhdev.ru/content/projects/ba39a7c1c6ef00ca47925bc581a0dd30s1.png",
+    "tags": ["js", "php", "scss"]
+  },
+  {
+    "name": "MagicPuzzle",
+    "img": "http://vhdev.ru/content/projects/0f2e6b264a0e2548a301946608b0ee14s1.png",
+    "tags": ["js", "php", "scss"]
+  }
+]

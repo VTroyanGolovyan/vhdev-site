@@ -1,0 +1,21 @@
+@import "../../common/styles/responsivity-mixines.module.scss";
+@import "../../common/styles/vars.module.scss";
+
+
+.footer {
+  @include responsive-size-container;
+  background: $elements-background;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $dark-text-color;
+  }
+
+  .contact {
+    color: $dark-text-color;
+    margin: 4px;
+    text-decoration: underline;
+  }
+}

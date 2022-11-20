@@ -1,0 +1,35 @@
+@import "../../common/styles/responsivity-mixines.module.scss";
+@import "../../common/styles/vars.module.scss";
+
+
+.header {
+  @include responsive-size-container;
+  background: $elements-background;
+  box-shadow: 0 0 5px $shadow-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    img {
+      height: 45px;
+    }
+  }
+
+  nav {
+    .href {
+      font-family: $headers-font;
+      color: $dark-text-color;
+      margin: 0 16px 0 0;
+      text-decoration: none;
+    }
+  }
+}

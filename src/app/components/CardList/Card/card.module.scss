@@ -1,0 +1,52 @@
+@import "../../../common/styles/vars.module.scss";
+@import "../../../common/styles/responsivity-mixines.module.scss";
+
+
+.card {
+  @include wide-mobile;
+  width: calc(25% - 24px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 4px;
+  box-shadow: 0 0 5px $shadow-color;
+  background: $elements-background;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  .cardName {
+    color: $dark-text-color;
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-family: $main-font;
+  }
+
+  .cardImg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .cardTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    div {
+      background: $main-color;
+      color: $main-color-blocks-text-color;
+      padding: 4px;
+      margin: 0 2px;
+      border-radius: 5px;
+      font-size: 12px;
+    }
+  }
+}

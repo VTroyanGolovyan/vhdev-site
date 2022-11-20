@@ -1,0 +1,25 @@
+@mixin responsive-size-container {
+  box-sizing: border-box;
+  padding: 20px 20%;
+  width: 100%;
+  @media screen {
+    @media (max-width: 480px) {
+      padding: 20px 20px;
+    }
+  }
+}
+@mixin column-mobile {
+  @media screen {
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+  }
+}
+
+@mixin wide-mobile {
+  @media screen {
+    @media (max-width: 480px) {
+      width: 100%;
+    }
+  }
+}

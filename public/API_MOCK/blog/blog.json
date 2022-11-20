@@ -1,0 +1,17 @@
+[
+  {
+    "name": "CMake",
+    "img": "http://vhdev.ru/content/posts/ee7ad92ff0fdc5147597dcbd51a6939cimg.png",
+    "tags": ["CMake", "C"]
+  },
+  {
+    "name": "Web-dev. 1",
+    "img": "http://vhdev.ru/content/posts/ee7ad92ff0fdc5147597dcbd51a6939cimg.png",
+    "tags": ["js", "php", "scss"]
+  },
+  {
+    "name": "Web-dev. 0",
+    "img": "http://vhdev.ru/content/posts/ee7ad92ff0fdc5147597dcbd51a6939cimg.png",
+    "tags": ["flex", "html", "css"]
+  }
+]
