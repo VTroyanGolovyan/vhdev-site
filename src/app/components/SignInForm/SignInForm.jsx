@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useNavigate } from "react-router-dom";
 
 import { connect } from 'react-redux';
@@ -6,8 +6,6 @@ import { connect } from 'react-redux';
 import s from './SignInForm.module.scss'
 
 import { actionSignIn } from '../../common/store/actions/signIn.js'
-
-import { ActionTypes } from "../../common/store/constants";
 
 const mapStateToProps = (state) => ({
     data: state.signInReducer.data,
@@ -19,12 +17,11 @@ const mapDispatchToProps = (dispatch) => ({
 
 function SignInForm({data, signIn}) {
   const navigate = useNavigate();
-
   const signInHandler = event => {
     event.preventDefault()
     const email = event.target.email.value
     const password = event.target.password.value
-    if (email == "vh@gmail.com" && password == "1234") {
+    if (email === "vh@gmail.com" && password === "1234") {
       signIn({
         token: 'asdsds',
         name: 'Vladislav'
@@ -37,7 +34,6 @@ function SignInForm({data, signIn}) {
       })
     }
   }
-
 
   return (
     <>

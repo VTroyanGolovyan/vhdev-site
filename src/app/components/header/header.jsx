@@ -7,8 +7,6 @@ import Logo from '../../../img/logo.png'
 import s from './header.module.scss'
 
 import { actionSignOut } from '../../common/store/actions/signOut.js'
-import { ActionTypes } from "../../common/store/constants";
-
 
 const mapStateToProps = (state) => ({
     data: state.signInReducer.data,
@@ -22,7 +20,7 @@ function Header({data, signOut}) {
     const [isShown, setIsShown] = useState(false);
     const checkId = "showMenu"
     let button;
-    if (data.token == '') {
+    if (data.token === '') {
       button = <Link
         onClick={(e) => { setIsShown(false) }}
         className={s.href}

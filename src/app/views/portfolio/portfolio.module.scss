@@ -15,8 +15,9 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 0 0 24px 0;
+  padding: 0 0 8px 0;
   .tag, .tagSelected {
     background: $elements-background;
     padding: 4px;
@@ -28,6 +29,7 @@
     font-size: 12px;
     border: solid 2px $main-color;
     cursor: pointer;
+    margin-bottom: 16px;
   }
   .tagSelected {
       background: $main-color;
