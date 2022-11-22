@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { useNavigate } from "react-router-dom";
+
 import { connect } from 'react-redux';
 
 import s from './SignInForm.module.scss'
@@ -16,6 +18,8 @@ const mapDispatchToProps = (dispatch) => ({
 })
 
 function SignInForm({data, signIn}) {
+  const navigate = useNavigate();
+
   const signInHandler = event => {
     event.preventDefault()
     const email = event.target.email.value
@@ -25,6 +29,7 @@ function SignInForm({data, signIn}) {
         token: 'asdsds',
         name: 'Vladislav'
       })
+      navigate("/");
     } else {
       signIn({
         token: '',
@@ -32,6 +37,7 @@ function SignInForm({data, signIn}) {
       })
     }
   }
+
 
   return (
     <>

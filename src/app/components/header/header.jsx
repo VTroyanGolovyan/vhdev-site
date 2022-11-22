@@ -6,11 +6,19 @@ import { connect } from 'react-redux'
 import Logo from '../../../img/logo.png'
 import s from './header.module.scss'
 
+import { actionSignOut } from '../../common/store/actions/signOut.js'
+import { ActionTypes } from "../../common/store/constants";
+
+
 const mapStateToProps = (state) => ({
     data: state.signInReducer.data,
 })
 
-function Header({data}) {
+const mapDispatchToProps = (dispatch) => ({
+    signOut: (data) => dispatch(actionSignOut({token: '', name: ''})),
+})
+
+function Header({data, signOut}) {
     const [isShown, setIsShown] = useState(false);
     const checkId = "showMenu"
     let button;
@@ -23,7 +31,7 @@ function Header({data}) {
         Вход
       </Link>;
     } else {
-      button = <div className={s.href}>Выход</div>;
+      button = <div onClick={signOut} className={s.href}>Выход</div>;
     }
 
     return (
@@ -71,4 +79,4 @@ function Header({data}) {
     )
 }
 
-export default connect(mapStateToProps)(Header)
+export default connect(mapStateToProps, mapDispatchToProps)(Header)
