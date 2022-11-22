@@ -1,13 +1,31 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+import { connect } from 'react-redux'
+
 import Logo from '../../../img/logo.png'
 import s from './header.module.scss'
 
-export function Header() {
-    const [isShown, setIsShown] = useState(false);
+const mapStateToProps = (state) => ({
+    data: state.signInReducer.data,
+})
 
+function Header({data}) {
+    const [isShown, setIsShown] = useState(false);
     const checkId = "showMenu"
+    let button;
+    if (data.token == '') {
+      button = <Link
+        onClick={(e) => { setIsShown(false) }}
+        className={s.href}
+        to='/signin'
+      >
+        Вход
+      </Link>;
+    } else {
+      button = <div className={s.href}>Выход</div>;
+    }
+
     return (
       <>
         <header className={s.header}>
@@ -46,15 +64,11 @@ export function Header() {
             >
               Преподавание
             </Link>
-            <Link
-              onClick={(e) => { setIsShown(false) }}
-              className={s.href}
-              to='/teaching'
-            >
-              Вход
-            </Link>
+            {button}
           </nav>
         </header>
       </>
     )
 }
+
+export default connect(mapStateToProps)(Header)

@@ -10,3 +10,27 @@
   justify-content: center;
   margin: 0 0 24px 0;
 }
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 24px 0;
+  .tag, .tagSelected {
+    background: $elements-background;
+    padding: 4px;
+    border-radius: 5px;
+    color: $main-color;
+    font-family: $main-font;
+    margin-right: 16px;
+    font-weight: bold;
+    font-size: 12px;
+    border: solid 2px $main-color;
+    cursor: pointer;
+  }
+  .tagSelected {
+      background: $main-color;
+      color: $main-color-blocks-text-color;
+  }
+}

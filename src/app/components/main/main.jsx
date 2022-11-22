@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import { Home } from '../../views/home/home'
 import { Portfolio } from '../../views/portfolio/portfolio'
 import { Teaching } from '../../views/teaching/teaching'
+import { SignIn } from '../../views/signin/signin'
 
 import s from './main.module.scss'
 
@@ -15,6 +16,7 @@ export function Main() {
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/portfolio/:page' element={<Portfolio/>}/>
         <Route path='/teaching' element={<Teaching/>}/>
+        <Route path='/signin' element={<SignIn/>}/>
       </Routes>
     </main>
   )

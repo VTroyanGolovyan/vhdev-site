@@ -1,60 +1,72 @@
 [
   {
+    "id": "1",
     "name": "Nibol",
     "img": "http://vhdev.ru/content/projects/d7e06920f771ed9f1a13c25c4abd7dees3.png",
     "tags": ["js", "php", "scss"]
   },
   {
+    "id": "1",
     "name": "Coddy.ca",
     "img": "http://vhdev.ru/content/projects/ba39a7c1c6ef00ca47925bc581a0dd30s1.png",
     "tags": ["js", "php", "scss"]
   },
   {
+    "id": "1",
     "name": "SketchHub",
     "img": "http://vhdev.ru/content/projects/fae1fc9bcd29e255b7d477ae5539af88s1.png",
     "tags": ["js", "php", "scss", "sql"]
   },
   {
+    "id": "1",
     "name": "Будь в форме",
     "img": "http://vhdev.ru/content/projects/070fa0d80945b50630722e5052bb6f58s2.png",
     "tags": ["java", "swing"]
   },
   {
+    "id": "1",
     "name": "VHgeo",
     "img": "http://vhdev.ru/content/projects/85d8a844e9d6530858d934cbb7bb8882s3.png",
     "tags": ["js", "canvas"]
   },
   {
+    "id": "1",
     "name": "DreadHouse",
     "img": "http://vhdev.ru/content/projects/485bddc9898f7103f54c3892db4a7668s1.png",
     "tags": ["js", "canvas", "css"]
   },
   {
+    "id": "1",
     "name": "VHcalc",
     "img": "http://vhdev.ru/content/projects/1422b3295272841b5d65107e955bad20s2.png",
     "tags": ["java", "swing"]
   },
   {
+    "id": "1",
     "name": "MagicPuzzle",
     "img": "http://vhdev.ru/content/projects/0f2e6b264a0e2548a301946608b0ee14s1.png",
     "tags": ["js", "php", "scss"]
   },
   {
+    "id": "1",
     "name": "Рулетка",
     "img": "http://vhdev.ru/content/projects/bc90481591e7b443d791a56215bedcdes2.png",
     "tags": ["js", "canvas"]
   },
   {
+    "id": "1",
     "name": "Photon",
     "img": "http://vhdev.ru/content/projects/ec8dbb895e5b4ff944630886f70baf8as2.png",
     "tags": ["java", "tcp"]
   },
   {
+    "id": "1",
     "name": "Архиватор",
     "img": "http://vhdev.ru/content/projects/70689d42aed0140f7f56e50ab6419e63s2.png",
     "tags": ["c++", "haffman"]
   },
   {
+    "id": "1",
     "name": "Алгоритмы",
     "img": "http://vhdev.ru/content/projects/e3ae7b97a45c6a4780eebe6473048bbes2.png",
     "tags": ["c++"]

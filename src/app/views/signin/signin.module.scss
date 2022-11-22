@@ -1,0 +1,12 @@
+@import "../../common/styles/responsivity-mixines.module.scss";
+@import "../../common/styles/vars.module.scss";
+
+
+.singinSection {
+  @include responsive-size-container;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 24px 0;
+}

@@ -15,7 +15,7 @@ export function Home() {
       <AboutMe url={API_LOAD_ABOUT}/>
       <section className={s.portfolioSection}>
         <h2 className={s.h2}>Портфолио</h2>
-        <CardList limit="4" url={API_LOAD_PROJECTS}/>
+        <CardList filters={[]} limit="4" url={API_LOAD_PROJECTS}/>
         <Link to='/portfolio'>
           <div className={s.linkBtn}>Все проекты</div>
         </Link>

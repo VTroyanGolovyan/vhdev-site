@@ -1,0 +1,7 @@
+{
+  "id": "1",
+  "name": "VHgeo",
+  "description": ["Графический редактор на языке JavaScript.", "Реализован с использованием canvas"],
+  "img": "http://vhdev.ru/content/projects/85d8a844e9d6530858d934cbb7bb8882s3.png",
+  "tags": ["js", "canvas"]
+}
