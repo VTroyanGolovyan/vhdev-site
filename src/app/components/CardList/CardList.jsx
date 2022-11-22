@@ -15,11 +15,10 @@ export default class CardList extends React.Component {
       error: null,
       isLoaded: false,
       items: []
-    };
+    }
   }
 
   componentDidMount() {
-    /*
     this.setState({
       url: this.props.url,
       limit: parseInt(this.props.limit),
@@ -27,7 +26,7 @@ export default class CardList extends React.Component {
       error: null,
       isLoaded: false,
       items: []
-    }); */
+    })
     fetch(this.state.url)
       .then(res => res.json())
       .then(
@@ -42,13 +41,13 @@ export default class CardList extends React.Component {
                  return hasIntersect(card.tags, this.state.filter)
                }
             )
-          });
+          })
         },
         (error) => {
           this.setState({
             isLoaded: true,
             error
-          });
+          })
         }
       )
   }

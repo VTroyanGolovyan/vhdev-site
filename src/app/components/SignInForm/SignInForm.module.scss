@@ -4,6 +4,9 @@
 
 .form {
   width: 60%;
+  @media screen and (max-width: $mobile-size) {
+    width: 100%;
+  }
   box-sizing: border-box;
   padding: 32px 16px;
   box-shadow: 0 0 5px $shadow-color;

@@ -42,7 +42,6 @@ export function Teaching() {
           <Slider items={items}/>
         </div>
       </div>
-
       </>
     )
   }

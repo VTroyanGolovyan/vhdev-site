@@ -15,9 +15,9 @@ export function Portfolio(props) {
     const changeTag = (id) => {
       const i = parseInt(id)
       setState((old) => {
-        const res = old.slice()
+        const res = old.selected.slice()
         res[i] = !res[i]
-        filters = PROJECT_TAGS.filter((element, index) => res[index])
+        const filters = PROJECT_TAGS.filter((element, index) => res[index])
         return {
           selected: res,
           filters: filters
@@ -44,7 +44,7 @@ export function Portfolio(props) {
            )
           }
         </div>
-        <CardList filter={filters} limit="0" url={API_LOAD_PROJECTS}/>
+        <CardList key={filters} filter={filters} limit="0" url={API_LOAD_PROJECTS}/>
         <div className={s.pages}>
         </div>
       </section>
