@@ -1,3 +1,12 @@
+@import "../../common/styles/responsivity-mixines.module.scss";
+@import "../../common/styles/vars.module.scss";
+
+
 .main {
   padding-top: 114px;
+  @media screen {
+    @media (max-width: $mobile-size) {
+        padding-top: 100px;
+    }
+  }
 }

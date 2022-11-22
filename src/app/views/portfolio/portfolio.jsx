@@ -30,6 +30,7 @@ export function Portfolio(props) {
     return (
       <>
       <section className={s.portfolioSection}>
+        <h2 className={s.h2}>Портфолио</h2>
         <div className={s.tags}>
           {
             PROJECT_TAGS.map(

@@ -1,0 +1,11 @@
+{
+  "id": "8",
+  "name": "Magic Puzzle",
+  "description": [
+    "Игра в пятнашки, нужно собрать картинку.",
+    "Поддерживает поля разных размеров."
+  ],
+  "img": "http://vhdev.ru/content/projects/0f2e6b264a0e2548a301946608b0ee14s1.png",
+  "tags": ["java", "swing"],
+  "link": "https://www.nibol.com/"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "6",
+  "name": "DreadHouse",
+  "description": [
+    "Один из моих первых проектов на JS, написан на JS в 9 классе.",
+    "В игре нужно собрать кубки, убежать от монстров, найти выход."],
+  "img": "http://vhdev.ru/content/projects/485bddc9898f7103f54c3892db4a7668s1.png",
+  "tags": ["js", "canvas"],
+  "link": "http://194.87.238.1/projects/dh/"
+}

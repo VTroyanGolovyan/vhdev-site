@@ -1,0 +1,10 @@
+{
+  "id": "9",
+  "name": "Рулетка",
+  "description": [
+    "Игра в рулетку."
+  ],
+  "img": "http://vhdev.ru/content/projects/bc90481591e7b443d791a56215bedcdes2.png",
+  "tags": ["js", "canvas"],
+  "link": "https://www.nibol.com/"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2",
+  "name": "Coddy.ca",
+  "description": [
+    "Сайт онлайн-школы Coddy.ca, находящейся в Канаде.",
+    "Реализован на HTML5+js, также был использован препроцессор SCSS, бекенд написан на django."
+  ],
+  "img": "http://vhdev.ru/content/projects/ba39a7c1c6ef00ca47925bc581a0dd30s1.png",
+  "tags": ["js", "scss", "html5", "django"],
+  "link": "https://www.nibol.com/"
+}

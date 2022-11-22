@@ -1,7 +1,11 @@
 {
   "id": "1",
-  "name": "VHgeo",
-  "description": ["Графический редактор на языке JavaScript.", "Реализован с использованием canvas"],
-  "img": "http://vhdev.ru/content/projects/85d8a844e9d6530858d934cbb7bb8882s3.png",
-  "tags": ["js", "canvas"]
+  "name": "Nibol",
+  "description": [
+    "Сайт компании Nibol.",
+    "Реализован на HTML5+js, также был использован препроцессор SCSS."
+  ],
+  "img": "http://vhdev.ru/content/projects/d7e06920f771ed9f1a13c25c4abd7dees3.png",
+  "tags": ["js", "scss", "html5"],
+  "link": "https://www.nibol.com/"
 }

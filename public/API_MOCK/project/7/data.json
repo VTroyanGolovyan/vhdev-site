@@ -1,0 +1,10 @@
+{
+  "id": "7",
+  "name": "VHcalc",
+  "description": [
+    "Одноранговый калькулятор на Java."
+  ],
+  "img": "http://vhdev.ru/content/projects/1422b3295272841b5d65107e955bad20s2.png",
+  "tags": ["java", "swing"],
+  "link": "https://www.nibol.com/"
+}

@@ -7,5 +7,5 @@ export const API_LOAD_PROJECT = BASE_URL + '/project/'
 export const API_LOAD_FEEDBACKS = BASE_URL + '/feedbacks/data.json'
 
 export const PROJECT_TAGS = [
-  'js', 'canvas', 'php', 'scss', 'sql', 'java', 'c++', 'tcp', 'swing'
+  'js', 'canvas', 'php', 'scss', 'sql', 'java', 'c++', 'tcp', 'swing', 'django'
 ]

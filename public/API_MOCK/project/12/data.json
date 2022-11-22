@@ -1,0 +1,10 @@
+{
+  "id": "10",
+  "name": "Алгоритмы",
+  "description": [
+    "Моя коллекция алгоритмов."
+  ],
+  "img": "http://vhdev.ru/content/projects/e3ae7b97a45c6a4780eebe6473048bbes2.png",
+  "tags": ["c++"],
+  "link": "https://www.nibol.com/"
+}

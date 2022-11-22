@@ -1,0 +1,10 @@
+{
+  "id": "10",
+  "name": "Архиватор",
+  "description": [
+    "Архиватор, написанный на с++, использует алгоритм Хаффмана."
+  ],
+  "img": "http://vhdev.ru/content/projects/70689d42aed0140f7f56e50ab6419e63s2.png",
+  "tags": ["c++"],
+  "link": "https://www.nibol.com/"
+}

@@ -23,6 +23,7 @@ export function Footer() {
         }
       )
   }, [])
+  
   if (error) {
     return <div>Ошибка: {error.message}</div>;
   } else if (!isLoaded) {

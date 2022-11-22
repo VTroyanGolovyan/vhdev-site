@@ -1,0 +1,11 @@
+{
+  "id": "3",
+  "name": "SketchHub",
+  "description": [
+    "Сайт социальной сети, написанный на php+mysql.",
+    "Для реализации фронтенд части был использован HTML5+SCSS+JS."
+  ],
+  "img": "http://vhdev.ru/content/projects/fae1fc9bcd29e255b7d477ae5539af88s1.png",
+  "tags": ["js", "scss", "html5", "php", "sql"],
+  "link": "https://www.nibol.com/"
+}
